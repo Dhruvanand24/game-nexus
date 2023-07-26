@@ -1,0 +1,10 @@
+.videoplayer1{
+   display: flex;
+   margin: 20px;
+   justify-content: center;
+}
+.videos1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}

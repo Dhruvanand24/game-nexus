@@ -1,0 +1,26 @@
+.searchcard{
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    color: white;
+    align-items: center;
+    /* background-color: rgb(0, 0, 0); */
+    background: linear-gradient(to right, #000000, #3b3d3b);
+    font-size: large;
+    cursor: pointer;
+    user-select: none;
+    transition: font-size 0.3s ease;
+
+}
+.searchcard:hover{
+    color: red;
+    font-size: x-large;
+}
+.img{
+    height: 100px;
+    width: 180px;
+    border-radius: 20px;
+}

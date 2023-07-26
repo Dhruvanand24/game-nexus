@@ -1,0 +1,21 @@
+.contentarea {
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-top: 30px;
+
+}
+.title {
+    user-select: none;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 10px;
+   
+}

@@ -1,0 +1,17 @@
+.ssmain{
+    display: flex;
+}
+.ssimg{
+    width: 600px;
+    margin: 20px;
+}
+
+.screenshots1{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 80%;
+   
+
+}

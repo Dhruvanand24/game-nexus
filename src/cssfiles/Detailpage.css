@@ -1,0 +1,155 @@
+.detailpage {
+    
+    width: 100%;
+    height: 90vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+.detailMain {
+    display: flex;
+}
+.details {
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: start;
+    height: auto;
+    margin: 10px;
+   
+}
+.imageareadetail {
+    width: 100%;
+    max-height: 50%;
+}
+.gamename {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.ratingarea {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 3px;
+    
+}
+.aboutarea {
+    width: 100%;
+    color: white;
+}
+.imageclass {
+    border-radius: 20px;
+    max-height: 100%;
+    max-width: 100%;
+}
+.platforms {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.publisher {
+    
+    width: 100%;
+    
+    
+    font-style: italic;
+    color: white;
+}
+.developer {
+    
+    width: 100%;
+    font-style: italic;
+    color: white;
+}
+.platformclass {
+    border-radius: 10px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+.left {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    
+}
+.videoplayer {
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.screenshots{
+    margin: 10px;
+    height: 150px;
+    transition: height 0.4s ease;
+}
+.screenshots:hover{
+    height: 200px;
+}
+.box{
+    border-radius: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+.store{
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin:  10px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.4s ease, color 0.4s ease;
+   
+}
+.store:hover{
+    background-color: white;
+    color: black;
+}
+.stores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px;
+    user-select: none;
+    cursor: pointer;
+    max-width: 70%;
+   
+}
+
+.creators{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    user-select: none;
+    cursor: pointer;
+    max-width: 70%;
+}

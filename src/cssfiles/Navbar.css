@@ -1,0 +1,118 @@
+.navbardiv {
+    user-select: none;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 15px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.game {
+    color: rgb(90, 90, 115)
+}
+
+.searchbar {
+    
+    border: 3px;
+    border-radius: 25px;
+    width: 80%;
+    height: 70px;
+    padding-left: 15px;
+    background-color: rgba(53, 51, 51, 0.405);
+    color: white;
+    
+}
+.searchdiv {
+    
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    width: 50%;
+}
+.authlogin {
+    margin-left: auto;
+}
+.authsignup {
+    margin-left: auto;
+}
+.logodiv {
+    margin-left: 10px;
+ 
+}
+
+.authlogin :hover{
+   
+    cursor: pointer;
+}
+.authsignup :hover{
+   
+    cursor: pointer;
+}
+.logodiv :hover{
+    color: red;
+    cursor: pointer;
+    
+}
+.glow-on-hover {
+    
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
