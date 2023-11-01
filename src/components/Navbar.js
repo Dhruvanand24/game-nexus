@@ -29,12 +29,7 @@ const Navbar = () => {
         {
        <Link to={`/Search/${search}`} style={{textDecoration:"none"}}><button className='glow-on-hover'>Search</button></Link>}
        </div>
-       <div className='authlogin'>
-       <button className='glow-on-hover'>Login</button>
-       </div>
-       <div className='authsignup'>
-       <button className='glow-on-hover'>Signup</button>
-       </div>
+      
     </div>
   );
 };
